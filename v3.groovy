@@ -9,6 +9,8 @@ job('job-v3') {
         scm('H/60 * * * *')
     }
     steps {
+        shell("git@github.com:Akasam/samplephpwebsite.git")
+        shell("git checkout v3")
         shell("phpunit TestProject.php")
     }
 }
