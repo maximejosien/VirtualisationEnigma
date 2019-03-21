@@ -1,4 +1,4 @@
-job('job-v1') {
+job('job-v2') {
     scm {
         git('https://github.com/maximejosien/VirtualisationEnigma', "v2") { node ->
             node / gitConfigName('Maxime')
