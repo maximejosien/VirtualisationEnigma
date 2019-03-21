@@ -9,7 +9,7 @@ job('job-v3') {
         scm('H/60 * * * *')
     }
     steps {
-        shell("git clone git@github.com:Akasam/samplephpwebsite.git")
+        shell("git clone https://github.com/Akasam/samplephpwebsite.git")
         shell("git checkout v3")
         shell("phpunit TestProject.php")
     }
