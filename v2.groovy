@@ -9,6 +9,6 @@ job('job-v2') {
         scm('H/60 * * * *')
     }
     steps {
-        shell("ls")
+        shell("phpunit TestProject.php")
     }
 }

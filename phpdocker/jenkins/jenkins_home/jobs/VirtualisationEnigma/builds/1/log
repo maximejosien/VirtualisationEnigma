@@ -1,0 +1,24 @@
+Started by user [8mha:////4KzzIPLkMxD43KIxWkE0bMUbst3lIJk4an0EXnMqQmaOAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYu/dLi1CL9ovz8EgCKqjp8vwAAAA==[0mMaxime JOSIEN
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/VirtualisationEnigma
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/maximejosien/VirtualisationEnigma
+ > git init /var/jenkins_home/workspace/VirtualisationEnigma # timeout=10
+Fetching upstream changes from https://github.com/maximejosien/VirtualisationEnigma
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/maximejosien/VirtualisationEnigma +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/maximejosien/VirtualisationEnigma # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/maximejosien/VirtualisationEnigma # timeout=10
+Fetching upstream changes from https://github.com/maximejosien/VirtualisationEnigma
+ > git fetch --tags --progress https://github.com/maximejosien/VirtualisationEnigma +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/v1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/v1^{commit} # timeout=10
+Checking out Revision 24067dea36fe433b2b50f098e2fd4cad9e394927 (refs/remotes/origin/v1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 24067dea36fe433b2b50f098e2fd4cad9e394927
+Commit message: "Modification nom groovy"
+First time build. Skipping changelog.
+ERROR: no Job DSL script(s) found at v1.groovy
+Finished: FAILURE

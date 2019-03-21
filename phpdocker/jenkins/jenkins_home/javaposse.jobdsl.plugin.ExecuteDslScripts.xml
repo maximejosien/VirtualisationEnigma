@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<javaposse.jobdsl.plugin.DescriptorImpl plugin="job-dsl@1.72">
+  <templateJobMap class="com.google.common.collect.HashMultimap" serialization="custom">
+    <com.google.common.collect.HashMultimap>
+      <default/>
+      <int>8</int>
+      <int>0</int>
+    </com.google.common.collect.HashMultimap>
+  </templateJobMap>
+  <generatedJobMap class="concurrent-hash-map">
+    <entry>
+      <string>job-v1</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>VirtualisationEnigma</seedJobName>
+        <digest>b3552fdf97d889fa733dff2d95a5dd3b</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>job-v3</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>VirtualisationEnigma</seedJobName>
+        <digest>308ff3eaf0c30ffcfe4891c85b0d020e</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>job-v2</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>VirtualisationEnigma</seedJobName>
+        <digest>b275aa81bc0f0ee047bc22a3cab69870</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+  </generatedJobMap>
+</javaposse.jobdsl.plugin.DescriptorImpl>
