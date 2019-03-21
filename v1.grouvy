@@ -9,6 +9,6 @@ job('job-v1') {
         scm('H/60 * * * *')
     }
     steps {
-        shell("php -v")
+        shell("ls")
     }
 }
