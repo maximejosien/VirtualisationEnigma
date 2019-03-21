@@ -14,3 +14,9 @@ Jenkins:
 
 http://localhost:8081
 
+Identifiant:
+
+```
+utilisateur: root
+mot de passe: root
+```
