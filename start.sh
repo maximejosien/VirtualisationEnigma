@@ -4,7 +4,7 @@ cd ./samplephpwebsite
 git checkout v3
 cd ../
 
-docker-compose up -d --build php nginx
+docker-compose up -d --build php nginx db
 
 echo "Terminer Site V3"
 read ""
