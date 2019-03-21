@@ -4,19 +4,34 @@ Exécution branche v1
 ./start.sh
 ```
 
-Version du site v1:
+Exécution branche v2
 
+```
+ git checkout v2
+./start.sh
+```
+
+Exécution branche v3
+
+```
+ git checkout v3
+./start.sh
+```
+
+URL SIte:
 ```
 http://localhost/
 ```
 
-Jenkins:
-
-http://localhost:8081
-
-Identifiant:
+Exécution Jenkins
 
 ```
-utilisateur: root
-mot de passe: root
+ git checkout v1
+./jenkins.sh
 ```
+
+URL SIte:
+```
+http://localhost:8080/
+```
+

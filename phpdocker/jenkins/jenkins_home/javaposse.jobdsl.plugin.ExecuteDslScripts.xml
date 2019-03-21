@@ -9,24 +9,17 @@
   </templateJobMap>
   <generatedJobMap class="concurrent-hash-map">
     <entry>
-      <string>job-v1</string>
-      <javaposse.jobdsl.plugin.SeedReference>
-        <seedJobName>VirtualisationEnigma</seedJobName>
-        <digest>b3552fdf97d889fa733dff2d95a5dd3b</digest>
-      </javaposse.jobdsl.plugin.SeedReference>
-    </entry>
-    <entry>
       <string>job-v3</string>
       <javaposse.jobdsl.plugin.SeedReference>
         <seedJobName>VirtualisationEnigma</seedJobName>
-        <digest>308ff3eaf0c30ffcfe4891c85b0d020e</digest>
+        <digest>2c1a28e271806705f88f0fcc7c892c6c</digest>
       </javaposse.jobdsl.plugin.SeedReference>
     </entry>
     <entry>
       <string>job-v2</string>
       <javaposse.jobdsl.plugin.SeedReference>
         <seedJobName>VirtualisationEnigma</seedJobName>
-        <digest>b275aa81bc0f0ee047bc22a3cab69870</digest>
+        <digest>a67592dbc3ad23a9a5a640558f3626e8</digest>
       </javaposse.jobdsl.plugin.SeedReference>
     </entry>
   </generatedJobMap>

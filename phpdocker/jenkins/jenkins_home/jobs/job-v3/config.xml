@@ -16,7 +16,13 @@
     <concurrentBuild>false</concurrentBuild>
     <builders>
         <hudson.tasks.Shell>
-            <command>ls</command>
+            <command>git clone https://github.com/Akasam/samplephpwebsite.git</command>
+        </hudson.tasks.Shell>
+        <hudson.tasks.Shell>
+            <command>git checkout v3</command>
+        </hudson.tasks.Shell>
+        <hudson.tasks.Shell>
+            <command>phpunit TestProject.php</command>
         </hudson.tasks.Shell>
     </builders>
     <publishers/>

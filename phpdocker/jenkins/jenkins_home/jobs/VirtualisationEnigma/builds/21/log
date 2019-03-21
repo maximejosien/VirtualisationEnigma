@@ -1,0 +1,31 @@
+Started by user [8mha:////4KzzIPLkMxD43KIxWkE0bMUbst3lIJk4an0EXnMqQmaOAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYu/dLi1CL9ovz8EgCKqjp8vwAAAA==[0mMaxime JOSIEN
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/VirtualisationEnigma
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/maximejosien/VirtualisationEnigma # timeout=10
+Fetching upstream changes from https://github.com/maximejosien/VirtualisationEnigma
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/maximejosien/VirtualisationEnigma +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/v1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/v1^{commit} # timeout=10
+Checking out Revision f2d17a71ed1162af93a194f0fbd28125f7030476 (refs/remotes/origin/v1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f2d17a71ed1162af93a194f0fbd28125f7030476
+Commit message: "repush groovy"
+ > git rev-list --no-walk f2d17a71ed1162af93a194f0fbd28125f7030476 # timeout=10
+Processing DSL script v1.groovy
+Existing items:
+    GeneratedJob{name='job-v1'}
+Processing DSL script v2.groovy
+Added items:
+    GeneratedJob{name='job-v2'}
+Unreferenced items:
+    GeneratedJob{name='job-v1'}
+Processing DSL script v3.groovy
+Added items:
+    GeneratedJob{name='job-v3'}
+Unreferenced items:
+    GeneratedJob{name='job-v1'}
+Finished: SUCCESS
