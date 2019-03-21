@@ -32,6 +32,9 @@ Exécution Jenkins
 
 URL SIte:
 ```
-http://localhost:8080/
+http://localhost:8081/
+
+Utilisateur: root
+Mot de passe: root
 ```
 
