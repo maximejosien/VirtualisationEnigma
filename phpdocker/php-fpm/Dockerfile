@@ -1,12 +1,9 @@
-FROM phpdockerio/php72-fpm:latest
-WORKDIR "/application"
+FROM php:7.1-fpm
 
-# Install selected extensions and other stuff
-RUN apt-get update \
-    && apt-get -y --no-install-recommends install  php7.2-mysql \
-    && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
+RUN apt-get update
 
-# Install git
-RUN apt-get update \
-    && apt-get -y install git \
-    && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
+RUN apt-get install libpng-dev -y
+
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+
+RUN docker-php-ext-install gd && docker-php-ext-enable gd
