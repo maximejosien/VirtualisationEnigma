@@ -6,8 +6,8 @@ services:
       restart: always
       working_dir: /application
       volumes:
-          - ./samplephpwebsite:/application
-          - ./phpdocker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+          - "./samplephpwebsite:/application"
+          - "./phpdocker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf"
       ports:
        - "80:80"
       links:
@@ -17,4 +17,4 @@ services:
       build: phpdocker/php-fpm
       working_dir: /application
       volumes:
-        - ./samplephpwebsite:/application
+        - "./samplephpwebsite:/application"
