@@ -2,7 +2,7 @@ version: "3.4"
 services:
 
     nginx:
-      image: nginx:alpine
+      image: nginx:1.12
       restart: always
       working_dir: /application
       volumes:
@@ -14,7 +14,7 @@ services:
         - php
 
     php:
-      build: phpdocker/php-fpm
+      image: php:7.1-fpm
       working_dir: /application
       volumes:
         - "./samplephpwebsite:/application"
